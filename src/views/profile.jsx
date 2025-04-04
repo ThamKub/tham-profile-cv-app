@@ -11,9 +11,12 @@ import {
 } from "@mui/material";
 import { GitHub, LinkedIn, Instagram, Twitter } from "@mui/icons-material";
 import TextField from '@mui/material/TextField';
+import profileImage from '../images/tham.jpg';
+import aboutMeImage from '../images/aboutme.jpg';
 
 function Profile() {
   const theme = useTheme();
+  
 
   return (
     <Box
@@ -97,7 +100,7 @@ function Profile() {
             }}
           >
             <img
-              src="/src/images/tham.jpg"
+              src={profileImage}
               alt="tham portrait"
               style={{
                 width: "100%",
@@ -211,7 +214,7 @@ function Profile() {
       </Box>
       <Box sx={{ mt: 6, display: "flex", justifyContent: "center" }}>
         <img
-          src="/src/images/aboutme.jpg"
+          src={aboutMeImage}
           alt="Profile Image"
           style={{
             width: "100%",
