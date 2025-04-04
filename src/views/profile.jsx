@@ -636,6 +636,7 @@ function Profile() {
               height: "50px",
               width: "150px",
               mt: 2,
+              fontSize: "15px",
               color: "black",
               fontWeight: "bold",
               textTransform: "uppercase",
